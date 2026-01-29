@@ -1,0 +1,15 @@
+fruits_list=[]
+
+f1=input("Enter fruit 1: ")
+f2=input("Enter fruit 2: ")
+f3=input("Enter fruit 3: ")
+f4=input("Enter fruit 4: ")
+f5=input("Enter fruit 5: ")
+f6=input("Enter fruit 6: ")
+fruits_list.append(f1)
+fruits_list.append(f2)
+fruits_list.append(f3)
+fruits_list.append(f4)
+fruits_list.append(f5)
+fruits_list.append(f6)
+print("Fruits List: ",fruits_list)
