@@ -17,4 +17,15 @@ print(marks.keys())
 print(marks.values())
 
 marks.update({"gaurav":82})
+marks.update({"gs":101}) #updates the value of key 'gs'
 print(marks)
+
+print(marks.get("divika")) #returns None as 'divika' key is not present
+
+#marks["Divika"] #returns an error
+
+print(marks.pop("gs"))
+print(marks)
+
+item=marks.popitem()#removes and returns a pair(k,v). follows LIFO
+print(item)
